@@ -66,6 +66,21 @@ $(function(){
 		margin-left: 5px;
 		box-shadow: 0 0 0 #000000, 0 3px 3px #EEEEEE inset;
 	}
+	
+	.chart , .chart:HOVER{
+		background: url("<%=request.getContextPath()%>/images/btngreen_bg.png") repeat-x scroll center top;
+		color: #FFFFFF;
+		display: block;
+		float: right;
+		font-weight: bold;
+		height: 20px;
+		line-height: 20px;
+		padding-left: 5px;
+		padding-right: 5px;
+		border: 1px solid #39B54A;
+		border-radius: 10px;
+		text-shadow: 0 1px #20942B;
+	}
 </style>
 </head>
 <%
@@ -95,6 +110,7 @@ $(function(){
 						<jsp:include page="card-charging-search-menu.jsp" />
 						
 						<div class="right_content">
+							<a href="<%=request.getContextPath() %>/protected/card-dashboard.html" class="chart" style="margin-right: 5px;"><span>Xem biểu đồ</span></a>
 							<h1 class="srv_title">Tìm kiếm Card Charging</h1>
 							<div>
 								<form id="cardReport" name="cardReport" action="card-charging.html" method="get">
