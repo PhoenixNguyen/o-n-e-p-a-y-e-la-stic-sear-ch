@@ -1,0 +1,44 @@
+package main.repositories;
+import java.util.List;
+
+import javax.annotation.Resource;
+
+import org.springframework.data.domain.Page;
+import org.springframework.data.elasticsearch.core.FacetedPage;
+import org.springframework.data.elasticsearch.core.query.SearchQuery;
+import org.springframework.data.elasticsearch.entities.Article;
+import org.springframework.stereotype.Service;
+
+import vn.onepay.search.entities.CardCdr;
+
+@Service
+public class CardCdrService {
+	@SuppressWarnings("restriction")
+	@Resource
+	CardCdrRepository cardCdrRepository;
+
+	public CardCdrRepository getCardCdrRepository() {
+		return cardCdrRepository;
+	}
+
+	public void setCardCdrRepository(CardCdrRepository cardCdrRepository) {
+		this.cardCdrRepository = cardCdrRepository;
+	}
+
+	public void save(CardCdr object) {
+		cardCdrRepository.save(object);
+    }
+	
+	public void bulkSave(List<CardCdr> objects) {
+		cardCdrRepository.save(objects);
+    }
+	
+	public boolean checkExist(){
+		return cardCdrRepository.exists("");
+	}
+	
+	public void deleteAll(){
+		if(cardCdrRepository.exists(""))
+			cardCdrRepository.deleteAll();
+	}
+}

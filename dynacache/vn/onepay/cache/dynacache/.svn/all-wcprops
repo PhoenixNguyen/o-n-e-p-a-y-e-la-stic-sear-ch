@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/1payrepos/!svn/ver/835/trunk/1pay_search/dynacache/vn/onepay/cache/dynacache
+END
+PassiveRedisMemoryCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/1payrepos/!svn/ver/835/trunk/1pay_search/dynacache/vn/onepay/cache/dynacache/PassiveRedisMemoryCache.java
+END
+CommonUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1payrepos/!svn/ver/817/trunk/1pay_search/dynacache/vn/onepay/cache/dynacache/CommonUtil.java
+END
+DynaCacheItemFeed.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1payrepos/!svn/ver/817/trunk/1pay_search/dynacache/vn/onepay/cache/dynacache/DynaCacheItemFeed.java
+END
+DynaCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1payrepos/!svn/ver/817/trunk/1pay_search/dynacache/vn/onepay/cache/dynacache/DynaCache.java
+END
+DynaHashTableCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/1payrepos/!svn/ver/835/trunk/1pay_search/dynacache/vn/onepay/cache/dynacache/DynaHashTableCache.java
+END
+DynaCacheItemOutOfDateException.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/1payrepos/!svn/ver/817/trunk/1pay_search/dynacache/vn/onepay/cache/dynacache/DynaCacheItemOutOfDateException.java
+END
+DynaMemoryServerCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1payrepos/!svn/ver/835/trunk/1pay_search/dynacache/vn/onepay/cache/dynacache/DynaMemoryServerCache.java
+END
+CachedItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1payrepos/!svn/ver/817/trunk/1pay_search/dynacache/vn/onepay/cache/dynacache/CachedItem.java
+END
+DynaCacheItemFeedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/1payrepos/!svn/ver/817/trunk/1pay_search/dynacache/vn/onepay/cache/dynacache/DynaCacheItemFeedException.java
+END
+PassiveDynaCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1payrepos/!svn/ver/817/trunk/1pay_search/dynacache/vn/onepay/cache/dynacache/PassiveDynaCache.java
+END
+DynaCacheItemNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/1payrepos/!svn/ver/817/trunk/1pay_search/dynacache/vn/onepay/cache/dynacache/DynaCacheItemNotFoundException.java
+END
+PassiveDynaMemoryCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/1payrepos/!svn/ver/835/trunk/1pay_search/dynacache/vn/onepay/cache/dynacache/PassiveDynaMemoryCache.java
+END
+PassiveDynaHashTableCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/1payrepos/!svn/ver/835/trunk/1pay_search/dynacache/vn/onepay/cache/dynacache/PassiveDynaHashTableCache.java
+END
+ParalellDynaCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1payrepos/!svn/ver/817/trunk/1pay_search/dynacache/vn/onepay/cache/dynacache/ParalellDynaCache.java
+END

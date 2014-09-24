@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/1payrepos/!svn/ver/816/trunk/1pay_search/otp/org/jboss/aerogear/security/otp/api
+END
+Base32.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1payrepos/!svn/ver/816/trunk/1pay_search/otp/org/jboss/aerogear/security/otp/api/Base32.java
+END
+Hash.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1payrepos/!svn/ver/816/trunk/1pay_search/otp/org/jboss/aerogear/security/otp/api/Hash.java
+END
+Clock.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1payrepos/!svn/ver/816/trunk/1pay_search/otp/org/jboss/aerogear/security/otp/api/Clock.java
+END
+Hmac.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1payrepos/!svn/ver/816/trunk/1pay_search/otp/org/jboss/aerogear/security/otp/api/Hmac.java
+END
+Digits.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1payrepos/!svn/ver/816/trunk/1pay_search/otp/org/jboss/aerogear/security/otp/api/Digits.java
+END

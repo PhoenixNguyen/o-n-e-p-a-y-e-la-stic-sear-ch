@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1payrepos/!svn/ver/806/trunk/1pay_search/data/elasticsearch/nodes/0/indices/articles/0/index
+END
+segments_1
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1payrepos/!svn/ver/806/trunk/1pay_search/data/elasticsearch/nodes/0/indices/articles/0/index/segments_1
+END
+segments.gen
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/1payrepos/!svn/ver/806/trunk/1pay_search/data/elasticsearch/nodes/0/indices/articles/0/index/segments.gen
+END
+_0.cfs
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1payrepos/!svn/ver/806/trunk/1pay_search/data/elasticsearch/nodes/0/indices/articles/0/index/_0.cfs
+END
+_0.si
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/1payrepos/!svn/ver/806/trunk/1pay_search/data/elasticsearch/nodes/0/indices/articles/0/index/_0.si
+END
+_0.cfe
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1payrepos/!svn/ver/806/trunk/1pay_search/data/elasticsearch/nodes/0/indices/articles/0/index/_0.cfe
+END
+_checksums-1401511618364
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/1payrepos/!svn/ver/806/trunk/1pay_search/data/elasticsearch/nodes/0/indices/articles/0/index/_checksums-1401511618364
+END
+write.lock
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1payrepos/!svn/ver/806/trunk/1pay_search/data/elasticsearch/nodes/0/indices/articles/0/index/write.lock
+END

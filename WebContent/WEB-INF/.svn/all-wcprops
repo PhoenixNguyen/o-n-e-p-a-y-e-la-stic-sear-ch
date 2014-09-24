@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/1payrepos/!svn/ver/940/trunk/1pay_search/WebContent/WEB-INF
+END
+dynacache-memserver-application-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/1payrepos/!svn/ver/820/trunk/1pay_search/WebContent/WEB-INF/dynacache-memserver-application-context.xml
+END
+elastic-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/1payrepos/!svn/ver/967/trunk/1pay_search/WebContent/WEB-INF/elastic-config.xml
+END
+mongo-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/1payrepos/!svn/ver/912/trunk/1pay_search/WebContent/WEB-INF/mongo-config.xml
+END
+dynacache-redis-application-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/1payrepos/!svn/ver/820/trunk/1pay_search/WebContent/WEB-INF/dynacache-redis-application-context.xml
+END
+dynacache-application-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1payrepos/!svn/ver/820/trunk/1pay_search/WebContent/WEB-INF/dynacache-application-context.xml
+END
+provider-profile-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/1payrepos/!svn/ver/820/trunk/1pay_search/WebContent/WEB-INF/provider-profile-context.xml
+END
+1pay-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/1payrepos/!svn/ver/965/trunk/1pay_search/WebContent/WEB-INF/1pay-servlet.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/1payrepos/!svn/ver/967/trunk/1pay_search/WebContent/WEB-INF/web.xml
+END

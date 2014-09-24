@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/1payrepos/!svn/ver/951/trunk/1pay_search/test/org/springframework/data/elasticsearch/repositories
+END
+SampleProductRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/1payrepos/!svn/ver/951/trunk/1pay_search/test/org/springframework/data/elasticsearch/repositories/SampleProductRepository.java
+END
+ArticleService.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/1payrepos/!svn/ver/951/trunk/1pay_search/test/org/springframework/data/elasticsearch/repositories/ArticleService.java
+END
+SampleBookRepositoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/1payrepos/!svn/ver/951/trunk/1pay_search/test/org/springframework/data/elasticsearch/repositories/SampleBookRepositoryTest.java
+END
+NestedObjectTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/1payrepos/!svn/ver/951/trunk/1pay_search/test/org/springframework/data/elasticsearch/repositories/NestedObjectTests.java
+END
+SampleArticleRepositoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/1payrepos/!svn/ver/951/trunk/1pay_search/test/org/springframework/data/elasticsearch/repositories/SampleArticleRepositoryTest.java
+END
+ElasticsearchFacetTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/1payrepos/!svn/ver/951/trunk/1pay_search/test/org/springframework/data/elasticsearch/repositories/ElasticsearchFacetTests.java
+END
+SampleArticleRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/1payrepos/!svn/ver/951/trunk/1pay_search/test/org/springframework/data/elasticsearch/repositories/SampleArticleRepository.java
+END
+SampleProductRepositoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/1payrepos/!svn/ver/951/trunk/1pay_search/test/org/springframework/data/elasticsearch/repositories/SampleProductRepositoryTest.java
+END

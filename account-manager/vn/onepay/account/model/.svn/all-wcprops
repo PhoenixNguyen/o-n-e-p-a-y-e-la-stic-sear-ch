@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/1payrepos/!svn/ver/817/trunk/1pay_search/account-manager/vn/onepay/account/model
+END
+Province.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1payrepos/!svn/ver/817/trunk/1pay_search/account-manager/vn/onepay/account/model/Province.java
+END
+Identity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/1payrepos/!svn/ver/817/trunk/1pay_search/account-manager/vn/onepay/account/model/Identity.java
+END
+Account.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/1payrepos/!svn/ver/817/trunk/1pay_search/account-manager/vn/onepay/account/model/Account.java
+END
+Bank.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/1payrepos/!svn/ver/817/trunk/1pay_search/account-manager/vn/onepay/account/model/Bank.java
+END
+AccountMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/1payrepos/!svn/ver/817/trunk/1pay_search/account-manager/vn/onepay/account/model/AccountMessage.java
+END
+AccountProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/1payrepos/!svn/ver/817/trunk/1pay_search/account-manager/vn/onepay/account/model/AccountProperty.java
+END
+BillingInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/1payrepos/!svn/ver/817/trunk/1pay_search/account-manager/vn/onepay/account/model/BillingInformation.java
+END

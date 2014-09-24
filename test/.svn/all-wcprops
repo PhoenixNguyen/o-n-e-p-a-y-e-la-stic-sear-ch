@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/1payrepos/!svn/ver/951/trunk/1pay_search/test
+END
+ElasticSearchDemo.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/1payrepos/!svn/ver/985/trunk/1pay_search/test/ElasticSearchDemo.java
+END
+springContext-book-test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/1payrepos/!svn/ver/951/trunk/1pay_search/test/springContext-book-test.xml
+END
+card-cdr-service.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/1payrepos/!svn/ver/951/trunk/1pay_search/test/card-cdr-service.xml
+END
+springContext-test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/1payrepos/!svn/ver/951/trunk/1pay_search/test/springContext-test.xml
+END
+contact-test.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/1payrepos/!svn/ver/951/trunk/1pay_search/test/contact-test.xml
+END
+spring-article.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/1payrepos/!svn/ver/951/trunk/1pay_search/test/spring-article.xml
+END

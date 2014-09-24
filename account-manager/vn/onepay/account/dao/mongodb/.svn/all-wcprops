@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/1payrepos/!svn/ver/817/trunk/1pay_search/account-manager/vn/onepay/account/dao/mongodb
+END
+IdentityDAOMongo.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/1payrepos/!svn/ver/817/trunk/1pay_search/account-manager/vn/onepay/account/dao/mongodb/IdentityDAOMongo.java
+END
+AccountDAOMongo.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/1payrepos/!svn/ver/817/trunk/1pay_search/account-manager/vn/onepay/account/dao/mongodb/AccountDAOMongo.java
+END
+BillingInformationDAOMongo.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/1payrepos/!svn/ver/817/trunk/1pay_search/account-manager/vn/onepay/account/dao/mongodb/BillingInformationDAOMongo.java
+END
