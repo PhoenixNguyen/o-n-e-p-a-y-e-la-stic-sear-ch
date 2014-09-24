@@ -15,14 +15,7 @@
 <script type="text/javascript" src="<%=request.getContextPath() %>/js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="<%=request.getContextPath() %>/js/jquery.multiselect.js"></script>
 
-<script src="<%=request.getContextPath() %>/js/chart/d3.v3.js"></script>
-<script src="<%=request.getContextPath() %>/js/chart/nv.d3.js"></script>
-<script src="<%=request.getContextPath() %>/js/chart/src/models/legend.js"></script>
-<script src="<%=request.getContextPath() %>/js/chart/src/models/pie.js"></script>
-<script src="<%=request.getContextPath() %>/js/chart/src/models/pieChart.js"></script>
-<script src="<%=request.getContextPath() %>/js/chart/src/utils.js"></script>
-
-<link href="<%=request.getContextPath() %>/css/chart/nv.d3.css" rel="stylesheet" type="text/css">
+<jsp:include page="chart.lib.jsp" />
 
 <style>
 	.filter_row .fieldset_filter {border: solid 1px #ccc;margin-left:40px; width: auto;}
@@ -90,11 +83,6 @@ $(function(){
 		text-shadow: 0 1px #20942B;
 	}
 	
-	.mypiechart {
-	  width: 500px;
-	  border: 2px;
-	}
-
 </style>
 </head>
 <%
@@ -125,82 +113,20 @@ $(function(){
 						
 						<div class="right_content">
 							<h1 class="srv_title">Biểu đồ</h1>
-							<h2>____________________________</h2>
-							<svg id="test1" class="mypiechart"></svg>
-
-							<script>
-							    $( function() { load_data(); });
 							
-							    var display_chart = function(json) {
-							      //alert(json.facets.tags.terms);
-							      Donut().data(json.facets.tags.terms).draw();
-							    };
 							
-							    var load_data = function() {
-							      $.ajax({   url: 'http://localhost:9200/cardcdrs/_search?pretty=true'
-							               , type: 'POST'
-							               , data :
-							                  JSON.stringify(
-							                  {
-							                    "query" : { "match_all" : {} },
+							<!-- LINE CHART -->
+							<jsp:include page="card-charging-chart-line.jsp" />
+							<div id="line_chart" >
+							  <svg style="height: 400px;"></svg>
+							</div>
 							
-							                    "facets" : {
-							                      "tags" : {
-							                        "terms" : {
-							                            "field" : "status",
-							                            "size"  : "1000"
-							                        }
-							                      }
-							                    }
-							                  })
-							               , dataType : 'json'
-							               , processData: false
-							               , success: function(json, statusText, xhr) {
-							            	   //drawPie(json);
-							                   return drawPie(json.facets.tags.terms);
-							                 }
-							               , error: function(xhr, message, error) {
-							                   console.error("Error while loading data from ElasticSearch", message);
-							                   throw(error);
-							                 }          
-							      });
-							    };
-							  </script>
-							  
-               				<script>
-							  function drawPie(json){
-								  //alert(json);
-								  var statusArrays = [];
-								  $.each(json, function(k , v){
-									  //alert(v.term);
-									  statusArrays.push({key : v.term, value : v.count});
-								  });
-								  //alert(statusArrays);
-								  					  							  							
-								nv.addGraph(function() {
-								    var width = 300,
-								        height = 300;
-								
-								    var chart = nv.models.pieChart()
-								        .x(function(d) { return d.key })
-								        .y(function(d) { return d.value })
-								        .color(d3.scale.category10().range())
-								        .width(width)
-								        .height(height);
-								
-								      d3.select("#test1")
-								          .datum(statusArrays)
-								        .transition().duration(1200)
-								          .attr('width', width)
-								          .attr('height', height)
-								          .call(chart);
-								
-								    chart.dispatch.on('stateChange', function(e) { nv.log('New State:', JSON.stringify(e)); });
-								
-								    return chart;
-								});
-							}													
-							</script>
+							<!-- PIE CHART -->
+							<jsp:include page="card-charging-chart-pie.jsp" />
+							<div id="pie" >
+								<h2>___________________________________________</h2>
+								<svg id="pie_chart" class="pie_chart"></svg>
+							</div>
 						</div>
 					</div>
 				</div>
