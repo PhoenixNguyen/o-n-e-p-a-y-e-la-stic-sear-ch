@@ -270,10 +270,18 @@ public class ElasticSearchImpl implements ElasticSearch{
 		elasticsearchTemplate.index(new IndexQueryBuilder().withId(id).withObject(object).build());
 	}
 	
+	private <T> int countAllData(Class<T> clazz){
+		NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder().withQuery(matchAllQuery());
+		
+		return (int)elasticsearchTemplate.count(queryBuilder.build(), clazz);
+		
+	}
 	private <T> int getTotalRecord(List<String> fields, List<String> terms, Map<String , List<String>> keywords, int facetSize,Class<T> clazz){
 		
 		if(fields.size() == 0)
 			return 0;
+		int countAll = countAllData(clazz);
+		System.out.println("countAll: " + countAll);
 		
 		int i = 0;
 		int total[] = new int[fields.size()];
@@ -292,7 +300,7 @@ public class ElasticSearchImpl implements ElasticSearch{
 				termTemps.addAll(terms);
 				termTemps.set(i, "");
 				
-				List<Term> termForFields = getFacets(field, fields, termTemps, keywords, facetSize, clazz);
+				List<Term> termForFields = getFacets(field, fields, termTemps, keywords, countAll, clazz);
 				
 				//get count
 				int tmp = 0;
@@ -317,7 +325,7 @@ public class ElasticSearchImpl implements ElasticSearch{
 				termTemps.addAll(terms);
 				termTemps.set(i, "");
 				
-				List<Term> termForFields = getFacets(field, fields, termTemps, keywords, facetSize, clazz);
+				List<Term> termForFields = getFacets(field, fields, termTemps, keywords, countAll, clazz);
 				
 				//get count
 				int tmp = 0;
@@ -334,7 +342,7 @@ public class ElasticSearchImpl implements ElasticSearch{
 		
 		//Else all chosen
 		int count = 0;
-		List<Term> rest = getFacets(fields.get(0), fields, terms, keywords, facetSize, clazz);
+		List<Term> rest = getFacets(fields.get(0), fields, terms, keywords, countAll, clazz);
 		for(Term term : rest){
 			count += term.getCount();
 		}
