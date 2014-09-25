@@ -29,11 +29,10 @@ public class CardCdrService {
     }
 	
 	public boolean checkExist(){
-		return cardCdrRepository.exists("");
+		return cardCdrRepository.exists("id");
 	}
 	
 	public void deleteAll(){
-		if(cardCdrRepository.exists(""))
-			cardCdrRepository.deleteAll();
+		cardCdrRepository.deleteAll();
 	}
 }

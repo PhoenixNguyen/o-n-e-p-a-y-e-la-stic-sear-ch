@@ -26,6 +26,9 @@ svn:special svn:externals svn:needs-lock
 
 34082ba7-c9b5-4668-bf8b-710c249fc9af
 
+chart
+dir
+
 core_menu.js
 file
 995

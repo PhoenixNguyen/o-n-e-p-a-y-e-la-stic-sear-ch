@@ -43,7 +43,7 @@ card-charging.jsp
 K 25
 svn:wc:ra_dav:version-url
 V 82
-/1payrepos/!svn/ver/993/trunk/1pay_search/WebContent/layouts/web/card-charging.jsp
+/1payrepos/!svn/ver/997/trunk/1pay_search/WebContent/layouts/web/card-charging.jsp
 END
 display_table.jsp
 K 25
@@ -57,6 +57,12 @@ svn:wc:ra_dav:version-url
 V 74
 /1payrepos/!svn/ver/818/trunk/1pay_search/WebContent/layouts/web/index.jsp
 END
+chart.lib.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/1payrepos/!svn/ver/997/trunk/1pay_search/WebContent/layouts/web/chart.lib.jsp
+END
 footer.jsp
 K 25
 svn:wc:ra_dav:version-url
@@ -68,6 +74,12 @@ K 25
 svn:wc:ra_dav:version-url
 V 77
 /1payrepos/!svn/ver/818/trunk/1pay_search/WebContent/layouts/web/otp_auth.jsp
+END
+card-charging-chart-pie.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/1payrepos/!svn/ver/997/trunk/1pay_search/WebContent/layouts/web/card-charging-chart-pie.jsp
 END
 home.jsp
 K 25
@@ -81,11 +93,23 @@ svn:wc:ra_dav:version-url
 V 88
 /1payrepos/!svn/ver/885/trunk/1pay_search/WebContent/layouts/web/include_search_menu.jsp
 END
+card-charging-chart.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/1payrepos/!svn/ver/997/trunk/1pay_search/WebContent/layouts/web/card-charging-chart.jsp
+END
 head.jsp
 K 25
 svn:wc:ra_dav:version-url
 V 73
 /1payrepos/!svn/ver/818/trunk/1pay_search/WebContent/layouts/web/head.jsp
+END
+card-charging-chart-line.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/1payrepos/!svn/ver/997/trunk/1pay_search/WebContent/layouts/web/card-charging-chart-line.jsp
 END
 card_report.jsp
 K 25

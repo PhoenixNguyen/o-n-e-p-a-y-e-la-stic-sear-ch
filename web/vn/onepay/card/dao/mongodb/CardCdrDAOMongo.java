@@ -264,7 +264,14 @@ public void save(List<CardCdr> cardCdrs) {
 
 @Override
 public List<CardCdr> findAllCardCdrs() {
-	return mongoTemplate.findAll(CardCdr.class);
+	List<CardCdr> cdrs = this.mongoTemplate.findAll(CardCdr.class);
+    if ((cdrs != null) && (cdrs.size() > 0)) {
+      for (CardCdr cardCdr : cdrs) {
+        cardCdr.setTimestamp(Utils.mongoDbTimeToDisplayTime(cardCdr.getTimestamp()));
+      }
+    }
+    
+	return cdrs;
 	
 }
 }

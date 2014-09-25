@@ -6,6 +6,7 @@ import main.repositories.CardCdrService;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.data.elasticsearch.core.ElasticsearchTemplate;
 
 import vn.onepay.card.dao.CardCdrDAO;
 import vn.onepay.card.model.CardCdr;
@@ -28,6 +29,7 @@ public class Main {
 		@SuppressWarnings("resource")
 		ApplicationContext ctx1 = new ClassPathXmlApplicationContext("/main/elastic-repository-config.xml");
 		CardCdrService cardCdrService = (CardCdrService)ctx1.getBean("cardCdrService");
+		ElasticsearchTemplate elasticsearchTemplate = (ElasticsearchTemplate) ctx1.getBean("elasticsearchTemplate");
 		
 		@SuppressWarnings("resource")
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("/main/mongo-config.xml");
@@ -37,11 +39,17 @@ public class Main {
 	  	if(cardCdrList == null || cardCdrList.size() == 0){
   		  return;
   	    }
+	  	
 	  	System.out.println("Size: " + cardCdrList.size());
 	  	
+	  	//delete all data
 	  	cardCdrService.deleteAll();
+	  	
+	  	//delete index
+	  	elasticsearchTemplate.deleteIndex(vn.onepay.search.entities.CardCdr.class);
+	  	
 	    //INDEX
-	    if(!cardCdrService.checkExist() ){
+	    if(!elasticsearchTemplate.indexExists(vn.onepay.search.entities.CardCdr.class)){
     	  System.out.println("Dang danh chi muc ...");
     	  
     	  List<vn.onepay.search.entities.CardCdr> objList = new ArrayList<vn.onepay.search.entities.CardCdr>();
